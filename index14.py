@@ -73,8 +73,28 @@
 
 
 
-f=open("sample.txt","a+")
-print(f.read())
-f.write("goodbye\n")
-print(f.read())
-f.close()
+# f=open("sample.txt","a+")
+# print(f.read())
+# f.write("goodbye\n")
+# print(f.read())
+# f.close()
+
+
+# f=open("sample3.txt","w")
+# f.write("welcome to python\n")
+# print(f.name)
+# print(f.mode)
+# print(f.closed)
+# f.close()
+# print(f.closed)
+
+
+# f=open("sample4.txt","w")
+# f.writelines(['hello world\n','learn python \n','learn java \n','learn c++ \n','learn c \n','goodbye!\n'])
+# f.close()   
+
+
+
+
+with open("sample4.txt","w")as f:
+    f.write("hello")
