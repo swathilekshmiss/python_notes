@@ -37,14 +37,57 @@
 
 
 
-class File:
-    def read(self):
-        print("reading file")
-class Socket:
-    def read (self):
-        print("reading socket")
+# class File:
+#     def read(self):
+#         print("reading file")
+# class Socket:
+#     def read (self):
+#         print("reading socket")
         
-def fetch_data(source):
-    source.read()
-fetch_data(File())
-fetch_data(Socket()) 
+# def fetch_data(source):
+#     source.read()
+# fetch_data(File())
+# fetch_data(Socket())  
+
+
+
+
+# class student:
+#     def __init__(self):
+#         self._marks=0
+#     @property
+#     def marks(self):
+#         return self._marks
+#     @marks.setter
+#     def marks(self, value):
+#         if value < 0:
+#             print("invalid marks")
+#         else:
+#             self._marks =value
+# s=student()
+# s.marks =80
+# print(s.marks)  
+
+# encapsulation 
+
+# class Student:
+#     def __init__(self):
+#         self.__marks = 80
+#     def  show_marks(self):
+#         print(self.__marks)
+# s = Student()
+# s.show_marks() 
+
+
+# encapulation
+# class Student:
+#     def __init__(self):
+#         self.__marks = 80
+#     def  get_marks(self):
+#        return self.__marks
+#     def set_marks(self,value):
+#          self.__marks = value
+# s = Student()
+# print(s.get_marks())
+# s.set_marks(100)
+# print(s.get_marks())  
